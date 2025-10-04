@@ -23,7 +23,7 @@ unnecessary Pandas transformations.
 import snowflake.connector
 
 conn = snowflake.connector.connect(
-    user="trsullivan", password="Memphis043002!", account="CYWNEAB-AWB56568"
+    user="your-username", password="your-password", account="AAAAAA-AAA####"
 )
 cs = conn.cursor()
 
